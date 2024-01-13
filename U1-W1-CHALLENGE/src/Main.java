@@ -5,7 +5,7 @@ public class Main {
 
         Audio mirculaus = new Audio("lol", 4);
 
-        System.out.println(mirculaus.getTitolo());
+      mirculaus.play();
     }
 
 

@@ -9,6 +9,22 @@ public class Audio extends EleMedia {
         this.durata = durata;
     }
 
+    public void play(){
+
+        for (int i = 0; i < durata ; i++) {
+            System.out.println( " " + getTitolo());
+
+        }
+
+    }
+
+
+
+
+
+
+
+
     public int getDurata() {
         return durata;
     }
