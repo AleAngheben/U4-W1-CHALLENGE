@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Object[] arrayElementi = new Object[3];
+        Object[] arrayElementi = new Object[5];
 
 
         Scanner scanner = new Scanner(System.in);
