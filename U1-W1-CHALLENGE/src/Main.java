@@ -90,6 +90,7 @@ public class Main {
             System.out.println("Che elemento vuoi riprodurre ( da 1 a 5 )");
             Integer scelta = scanner.nextInt();
             scanner.nextLine();
+            if (scelta <=5){
             if (scelta.equals(0)) {
                 System.out.println("player chiuso");
                 scanner.close();
@@ -102,8 +103,10 @@ public class Main {
 
             } else if (arrayElementi[scelta - 1] instanceof Image) {
                 ((Image) arrayElementi[scelta - 1]).show();
+            }}
+else{
+                System.out.println("Inserisci un numero valido da 1 a 5 o 0 per chiudere il programma");
             }
-
         }
 
 
