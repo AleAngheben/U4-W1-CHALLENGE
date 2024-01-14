@@ -15,7 +15,11 @@ public class Image extends EleMedia implements LumiInt {
 
     public void show() {
 
-        System.out.println("ciao show ");
+
+        System.out.println(getTitolo());
+
+
+        System.out.println("*".repeat(getLuminosita()));
 
     }
 

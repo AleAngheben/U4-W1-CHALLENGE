@@ -15,8 +15,11 @@ public class Audio extends EleMedia implements VoluInt {
 
     public void play() {
 
-        System.out.println("ciao play ");
+        for (int i = 1; i <= getDurata(); i++) {
+            System.out.println(getTitolo());
 
+        }
+        System.out.println("!".repeat(getVolume()));
     }
 
 

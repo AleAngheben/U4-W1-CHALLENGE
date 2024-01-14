@@ -18,8 +18,10 @@ public class Video extends EleMedia implements LumiInt, VoluInt {
 
 
     public void play() {
-
-        System.out.println("ciao play ");
+        for (int i = 1; i <= getDuration(); i++) {
+            System.out.println(getTitolo());
+        }
+        System.out.println("!".repeat(getVolume()) + " " + "*".repeat(getLuminosita()));
 
     }
 
